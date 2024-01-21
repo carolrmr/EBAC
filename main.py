@@ -55,7 +55,7 @@ def main():
     )
 
     # Título principal da aplicação
-    st.write('# Telemarketing analisys')
+    st.write('# Análises de telemarketing')
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
@@ -63,7 +63,7 @@ def main():
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
-    st.sidebar.write("## Suba o arquivo")
+    st.sidebar.write("## Importe seu csv aqui!")
     data_file_1 = st.sidebar.file_uploader("Bank marketing data", type = ['csv','xlsx'])
 
     # Verifica se há conteúdo carregado na aplicação
